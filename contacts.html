@@ -6,6 +6,12 @@
     <meta name="description" content="Ну тупо пажилой сайтец на ксс хтмл">
     <meta name="keywords" content="НеСигнатура, html, css, статьи, объекты, гений, миллиардер, плейбой, филантроп">
     <link rel="stylesheet" href="css/contacts.css">
+    <script>
+setInterval(function() {
+  var i = Math.floor(Math.random() * (9999999999 - 1000000000)) + 1000000000;
+  document.getElementById("random").innerHTML = i;
+}, 1000);
+</script>
     <title>Ништяк-контакты</title>
   </head>
   <body background="images/wall-21534.jpg">
@@ -21,8 +27,13 @@
 
 
     <div id="main">
-      <p>Ну тут будут всякие способы связаться с нами корч</p>
-    </div>
+      <p class="heading">А КАК СВЯЗАЦА?!</p><br><br>
+      <p class="text">Ну смотри, короче, схема такая, ты можешь написать нам на почту, которую мы никогда не читаем</p><br>
+      <a href="mailto:naebka@aboba.com"> пажилаяпочта@ненаебчестно.ру</a> <br> <br>
+      <p class="text">Либо ты можешь оставить свой номер, и если ты пройдешь это испытание, и сможешь его оставить, то мы тебе полюбому позвоним, атвичаем.</p><br>
+      <span id="random"></span>
+      <button type="button" name="button" title="Нам так похуй, честно говоря, эта хуйня даже не работает">ДА, ЭТО ОН!</button>
+
 
 
 

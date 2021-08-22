@@ -55,3 +55,17 @@ a:hover{
   border-radius: 5px;
   border-color: #333;
 }
+
+.heading {
+  font-family: Georgia;
+  font-weight: bold;
+  border: 2px solid #E6375B;
+  font-size:30px;
+  text-align: center;
+}
+
+.text {
+  font-family: Verdana;
+  font-size: 14px;
+  text-align: justify;
+}
