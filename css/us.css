@@ -80,7 +80,7 @@ a:hover{
 }
 
 
-@media (max-width:690px) {
+@media (max-width:960px) {
   #nav{
     display: flex;
     flex-direction: column;
