@@ -71,7 +71,7 @@ a:hover{
 }
 
 
-@media (max-width:960px) {
+@media (max-width:960px){
   #nav{
     display: flex;
     flex-direction: column;
