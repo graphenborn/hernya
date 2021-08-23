@@ -72,3 +72,18 @@ a:hover{
   font-size:30px;
   text-align: center;
 }
+
+
+@media (max-width:690px) {
+  #nav{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    justify-content: center;
+		align-items: center;
+  }
+
+  #nav li {
+    margin-top: 3px;
+  }
+}
