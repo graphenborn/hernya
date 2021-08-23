@@ -19,11 +19,9 @@
   flex-direction: row;
   justify-content: center;
   width: 100%;
-  overflow: hidden;
   margin-top: 4%;
   align-items: center;
   font-family: Verdana, sans-serif;
-  text-align: center;
   margin-bottom: 50px;
 }
 
@@ -44,7 +42,7 @@ a{
   margin-right: 1%;
 }
 
-a:hover{
+a:hover:not(#statya){
   color: #fff;
   background-color: black;
   border-radius: 5px;
@@ -65,7 +63,6 @@ a:hover{
   width: 50%;
 }
 
-
 .heading {
   font-family: Georgia;
   font-weight: bold;
@@ -74,6 +71,25 @@ a:hover{
   text-align: center;
 }
 
+.text {
+  text-indent: 20px;
+  font-family: Verdana;
+  font-size: 16px;
+  text-align: justify;
+}
+
+.abobus{
+  border:1px solid black;
+  overflow:auto;
+}
+
+#aboba {
+  float:left;
+}
+
+.abobus:hover{
+  border: 3px inset black;
+}
 
 @media (max-width:960px) {
   #nav{
