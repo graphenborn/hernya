@@ -71,14 +71,14 @@ a {
   font-family: Georgia;
   font-weight: bold;
   border: 2px solid #E6375B;
-  font-size:30px;
+  font-size: 1.8em;
   text-align: center;
 }
 
 .text {
   text-indent: 20px;
   font-family: Verdana;
-  font-size: 16px;
+  font-size: 1em;
   text-align: justify;
 }
 
