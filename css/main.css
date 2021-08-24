@@ -68,6 +68,11 @@ a {
   width: 50%;
 }
 
+.block {
+  border:1px solid black;
+  overflow:auto;
+}
+
 .heading {
   font-family: Georgia;
   font-weight: bold;
@@ -77,23 +82,40 @@ a {
 }
 
 .text {
-  text-indent: 20px;
   font-family: Verdana;
   font-size: 1em;
   text-align: justify;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+.krasnaya {
+  text-indent: 2em;
+  font-family: Verdana;
+  font-size: 1em;
+  margin-top: 1em;
+  text-align: justify;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+.features{
+  margin-left: 2%;
+  list-style: inherit;
+  list-style-position: inside;
 }
 
 #arrow {
   bottom: 1%;
   margin-left: 2%;
   position: fixed;
-  border-radius:: 50px;
+  border-radius:: 99999px;
   z-index: 228;
 }
 
 #arrowImage:hover {
   border: 1px inset black;
-  border-radius: 50px;
+  border-radius: 99999px;
 }
 
 #arrowImage {

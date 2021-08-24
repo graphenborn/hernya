@@ -1,0 +1,8 @@
+.articles {
+  text-align: center;
+}
+
+.object {
+  border:1px solid black;
+  overflow:auto;
+}
