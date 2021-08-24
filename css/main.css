@@ -54,7 +54,8 @@ a {
 }
 
 .active {
-  background: #20AEE6;
+  color: #fff;
+  background: #099;
   border-radius: 5px;
   border-color: #333;
 }
@@ -83,9 +84,11 @@ a {
 }
 
 #arrow {
-  margin-left: 94%;
-  position: sticky;
-  bottom: 0;
+  bottom: 1%;
+  margin-left: 2%;
+  position: fixed;
+  border-radius:: 50px;
+  z-index: 228;
 }
 
 #arrowImage:hover {
