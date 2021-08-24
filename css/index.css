@@ -26,9 +26,10 @@
   text-indent: 20px;
   font-family: Verdana;
   font-size: 1em;
-  margin-top: 1%;
+  /* margin-top: 1%;
   margin-left: 32%;
-  margin-right: 1%;
+  margin-right: 1%; */
+  margin: 1% 1% 1% 32%;
   text-align: justify;
 }
 
