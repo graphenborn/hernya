@@ -25,8 +25,12 @@
   margin-bottom: 50px;
 }
 
-a{
-  text-decoration:none;
+a {
+  text-decoration: none;
+  color:black;
+}
+
+.navig, .active{
   padding: 0 20px;
   color: black;
 }
@@ -42,7 +46,7 @@ a{
   margin-right: 1%;
 }
 
-a:hover:not(#statya){
+.navig:hover, .active:hover{
   color: #fff;
   background-color: black;
   border-radius: 5px;
@@ -75,35 +79,6 @@ a:hover:not(#statya){
   text-indent: 20px;
   font-family: Verdana;
   font-size: 16px;
-  text-align: justify;
-}
-
-.abobus{
-  border:1px solid black;
-  overflow:auto;
-}
-
-#aboba {
-  float:left;
-}
-
-.abobus:hover{
-  border: 3px inset black;
-}
-
-.blogHeading {
-  margin-top: 10px;
-  font-family: Georgia;
-  font-weight: bold;
-  text-align: center;
-}
-
-.blogText {
-  text-indent: 20px;
-  font-family: Verdana;
-  font-size: 16px;
-  margin-top: 1%;
-  margin-left: 32%;
   text-align: justify;
 }
 
