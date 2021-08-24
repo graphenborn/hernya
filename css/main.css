@@ -108,7 +108,8 @@ a {
 
 #arrow {
   bottom: 1%;
-  margin-left: 2%;
+  top: 90vh;
+  left: 93vw;
   position: fixed;
   border-radius:: 99999px;
   z-index: 228;
