@@ -69,6 +69,21 @@
   text-align: center;
 }
 
+#objects::-webkit-scrollbar {
+width: 3px;
+height: 10px;
+}
+#objects::-webkit-scrollbar-button {
+width: 0px;
+}
+#objects::-webkit-scrollbar-track-piece {
+background-color: #c8c8c8;
+}
+#objects::-webkit-scrollbar-thumb {
+background-color: rgb(240, 109, 109);
+border-radius: 3px;
+}
+
 
 @media (max-width:640px) {
   #objList{

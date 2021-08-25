@@ -110,8 +110,8 @@ a {
   bottom: 1%;
   top: 85vh;
   left: 90vw;
-  height: 7em;
-  width: 7em;
+  height: 10vh;
+  width: 10vh;
   position: fixed;
   border-radius:: 99999px;
 }
