@@ -108,11 +108,12 @@ a {
 
 #arrow {
   bottom: 1%;
-  top: 90vh;
-  left: 93vw;
+  top: 85vh;
+  left: 90vw;
+  height: 7em;
+  width: 7em;
   position: fixed;
   border-radius:: 99999px;
-  z-index: 228;
 }
 
 #arrowImage:hover {
