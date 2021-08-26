@@ -7,6 +7,7 @@
   width: 75%;
   margin-left: 10%;
   background-color: #fafafa;
+  border-radius: 20px;
   border: 1px solid silver;
   padding: 20px 2.5%;
   float: left;
@@ -71,11 +72,13 @@ a {
 .block {
   border:1px solid black;
   overflow:auto;
+  padding: 2em;
 }
 
 .heading {
   font-family: Georgia;
   font-weight: bold;
+  border-radius: 20px 20px 0px 0px;
   border: 2px solid #E6375B;
   font-size: 1.8em;
   text-align: center;
@@ -85,8 +88,6 @@ a {
   font-family: Verdana;
   font-size: 1em;
   text-align: justify;
-  margin-left: 2%;
-  margin-right: 2%;
 }
 
 .krasnaya {
@@ -95,8 +96,6 @@ a {
   font-size: 1em;
   margin-top: 1em;
   text-align: justify;
-  margin-left: 2%;
-  margin-right: 2%;
 }
 
 .features{

@@ -1,5 +1,7 @@
 .statya{
   border:1px solid black;
+  padding: 2em;
+  border-radius: 20px;
   overflow:auto;
 }
 

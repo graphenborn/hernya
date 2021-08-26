@@ -6,6 +6,10 @@
   overflow:auto;
 }
 
+.abobus:last-of-type:after{
+  border-radius: 0px 0px 20px 20px;
+}
+
 #aboba {
   float:left;
 }
