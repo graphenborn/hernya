@@ -20,7 +20,7 @@
 
 #objNav a {
   border: 1px solid black;
-  padding: 0 2em; 
+  padding: 0 2em;
   display: inline;
   background-color: #fff;
   border-radius: 5px;
@@ -33,4 +33,14 @@
   background-color: black;
   border-radius: 5px;
   border-color: #333;
+}
+
+@media (max-width:640px) {
+  #objNav {
+    flex-direction: column;
+    justify-content: center;
+  }
+  #objNav a {
+    margin-top: 0.5em;
+  }
 }
