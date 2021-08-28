@@ -90,7 +90,7 @@ border-radius: 3px;
   #objList{
     flex-direction: column;
   }
-  .objLink{
+  .objLink:not(#last){
     border-right: none;
   }
 }
