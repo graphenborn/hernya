@@ -73,6 +73,7 @@ a {
   border:1px solid black;
   overflow:auto;
   padding: 2em;
+  margin-bottom: 2em;
 }
 
 .heading {
@@ -106,9 +107,9 @@ a {
 }
 
 #arrow {
-  bottom: 1%;
-  top: 85vh;
-  left: 90vw;
+  bottom: 1%;x
+  top: 85%;
+  left: 91%;
   height: 10vh;
   width: 10vh;
   position: fixed;
@@ -136,5 +137,13 @@ a {
   #nav li {
     margin-top: 3px;
     margin-right: 0px;
+  }
+
+  #arrow {
+    display: none;
+  }
+
+  #arrowImage {
+    display: none;
   }
 }

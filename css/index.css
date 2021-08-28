@@ -6,9 +6,6 @@
   overflow:auto;
 }
 
-.abobus:last-of-type:after{
-  border-radius: 0px 0px 20px 20px;
-}
 
 #aboba {
   float:left;
@@ -92,5 +89,8 @@ border-radius: 3px;
 @media (max-width:640px) {
   #objList{
     flex-direction: column;
+  }
+  .objLink{
+    border-right: none;
   }
 }

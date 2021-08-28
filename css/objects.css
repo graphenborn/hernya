@@ -8,3 +8,13 @@
   padding: 2em;
   border-radius: 20px;
 }
+
+img {
+  float:left;
+  margin: 2em;
+}
+
+
+.object:hover{
+  background: lightgrey;
+}
